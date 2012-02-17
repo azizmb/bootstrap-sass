@@ -4,7 +4,7 @@ module Bootstrap
   # Inspired by Kaminari
   def self.load!
     if rails?
-      require 'sass-rails' # See: https://github.com/thomas-mcdonald/bootstrap-sass/pull/4
+      # require 'sass-rails' # See: https://github.com/thomas-mcdonald/bootstrap-sass/pull/4
       require 'bootstrap-sass/engine'
     elsif compass?
       require 'bootstrap-sass/compass_extensions'
